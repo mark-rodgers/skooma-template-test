@@ -1,0 +1,6 @@
+{
+  "name": "basic-html-test",
+  "description": "A simple HTML file for testing Skooma's templating capabilities",
+  "author": "Mark Rodgers <mark@marknrodgers.com>",
+  "variables": []
+}
