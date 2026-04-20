@@ -23,14 +23,20 @@
     }
 
     .hero {
-      text-align: center;
-      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
     }
 
     .hero h1 {
       font-size: 4rem;
       font-weight: 700;
-      margin-bottom: 1rem;
+    }
+
+    .meme {
+      width: 500px;
+      height: 500px;
     }
   </style>
 </head>
@@ -40,6 +46,7 @@
     <h1>Hello, World!</h1>
     <p>Repo URL: {{.RepoURL}}</p>
     <p>Author: {{.Author}}</p>
+    <img src="./assets/test.webp" alt="Test" class="meme">
   </div>
 </body>
 
