@@ -1,0 +1,4 @@
+these variables should not be processed by skooma
+
+{{.RepoURL}}
+{{.Author}}
